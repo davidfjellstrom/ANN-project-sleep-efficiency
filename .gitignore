@@ -19,7 +19,6 @@ env/
 .vscode/
 .idea/
 
-# Large model outputs (optional – uncomment to exclude from git)
-# models/
-# *.keras
-# *.pkl
+# Tränade modellfiler – genereras av notebooken, behövs ej i git
+models/*.keras
+models/*.pkl
